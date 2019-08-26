@@ -1,4 +1,6 @@
-public class MediaNota
+package media;
+
+public class Main
 {
     public static void main(String[] args)
     {

@@ -1,3 +1,5 @@
+package media;
+
 import javax.swing.*;
 
 public class MatClass
@@ -19,7 +21,7 @@ public class MatClass
         {
             try
             {
-                stringAux = JOptionPane.showInputDialog("Insira a nota " + verf, "Ola");
+                stringAux = JOptionPane.showInputDialog("Insira a nota " + verf);
                 doubleAux = Double.parseDouble(stringAux);
                 if (!(doubleAux >= 0 && doubleAux <= 10))
                 {
