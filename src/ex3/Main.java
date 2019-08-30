@@ -1,12 +1,9 @@
 package ex3;
 
-import javax.swing.*;
-import java.awt.*;
-
-public class Main extends JFrame
+public class Main
 {
     public static void main(String[] args)
     {
-        new Janela();
+        // Executa a classe da janela
     }
 }
